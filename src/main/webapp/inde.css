@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("image/backimg.jpeg");
+	background-size:cover;
+}
+#maindiv{
+	display:flex;
+	gap:10px;
+}
+#d1{
+	width:300px;
+	display:flex;
+	flex-direction:column;
+}
+#d1d1{
+	height:100px;
+	background:#bdbdff;
+}
+#d1d1 h1{
+	text-align:center;
+	margin:30px auto;
+}
+#d1d2{
+	display:flex;
+	flex-direction:column;
+}
+#d1d2 button{
+	width:100%;
+	height:75px;
+}
+#d2{
+	width:100%;
+	border-left:10px outset black;
+	background-image:url("image/mahadev.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.frmstyle{
+	width:300px;
+	margin:50px auto;
+	border-radius:10px;
+	box-shadow:3px 3px 10px;
+	padding:20px;
+	background:#f0f0f0;
+}
+#show{
+	width:600px;
+	display:grid;
+	grid-template-columns:300px 300px;
+	margin:50px auto;
+	border-radius:10px;
+	box-shadow:3px 3px 10px;
+	padding:20px;
+	background:#f0f0f0;
+}
+#show h3{
+	display:inline;
+	background:#f0f0f0;
+}
+#welcome{
+	text-align:center;
+}
